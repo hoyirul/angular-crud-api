@@ -1,0 +1,10 @@
+Task 1
+- Interpolation
+- Class Binding
+- Property Binding
+- Style Binding
+- Event Binding
+- Two Way Binding
+- Structural Directive
+- Component Interaction
+- Pipes

@@ -1,10 +1,10 @@
 Task 1
-- Interpolation
-- Class Binding
-- Property Binding
-- Style Binding
-- Event Binding
-- Two Way Binding
-- Structural Directive
-- Component Interaction
-- Pipes
+- Interpolation = memungkinkan untuk menampilkan sebuah string yang nilainya dinamis ke suatu HTML (done)
+- Class Binding (done)
+- Property Binding = mengatur value pada properti dari suatu elemen HTML (done)
+- Style Binding (done)
+- Event Binding (done)
+- Two Way Binding (done)
+- Structural Directive (done)
+- Component Interaction (done)
+- Pipes = Example dateformat (done)

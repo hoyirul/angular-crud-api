@@ -1,0 +1,26 @@
+<div class="container">
+  <h1 [ngClass]="dangerClass" [style.font-size.px]="size">Simple CRUD - Test | {{ dateToday | date: 'YYYY-mm-dd | hh:mm:ss a' }}</h1>
+  <a href="#" routerLink="/example/create/" class="btn btn-success">Create New Post</a>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th width="250px">Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let example of examples">
+        <td>{{ example.id }}</td>
+        <td>{{ example.name }}</td>
+        <td>{{ example.description }}</td>
+        <td>
+          <!-- <a href="#" [routerLink]="['/example/', example.id, 'show']" class="btn btn-info">Show</a> -->
+          <a href="#" [routerLink]="['/example/', example.id, 'edit']" class="btn btn-primary">Edit</a>
+          <button type="button" (click)="deleteExample(example.id)" class="btn btn-danger">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
